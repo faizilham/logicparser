@@ -13,7 +13,7 @@ int main(int argc, char** args){
 	}
 	
 	LogicParser L(sentence);
-	cout<<(L.checkAllValue())<<endl;
+	L.printTable();
 
 	return 0;
 }
